@@ -3,7 +3,7 @@ use rand::Rng;
 
 fn main() {
 
-    let secret_number = rand::thread_rng().range_range(1..=100);
+    let secret_number = rand::rng().random_range(1..=100);
 
     println!("Guess the number!");
     let mut guess = String::new();
